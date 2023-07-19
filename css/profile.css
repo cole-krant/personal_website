@@ -1,0 +1,23 @@
+/* CONTAINERS --------------------------------------------------------------- */
+.user_bg {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.page_container {
+    display: grid;
+    grid-template-columns: 1800px 1800px 1800px;
+    gap: 10px;
+    padding: 60px;
+}
+
+.grid-container > div {
+    background-color: rgba(161, 23, 23, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
